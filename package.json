@@ -1,0 +1,21 @@
+{
+  "name": "minimalist-blog",
+  "version": "1.0.0",
+  "description": "Minimalist Blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prathikotian",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "minimalism",
+    "minimalist",
+    "blog"
+  ]
+}

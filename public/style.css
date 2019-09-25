@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+/* General Styling */
+
+* {
+  box-sizing: border-box;
+  font-family: Karla, sans-serif;
+  color: rgb(0,0,0);
+  margin: 0;
+  transition: all 700ms ease-in-out;
+}
+
+body {
+  text-align: center;
+}
+
+header, footer, #contact {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .4;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header Styling */
+
+.logo {
+  font-size: 2.5em;
+  margin: .8rem 0 .5rem;
+}
+
+.nav {
+  margin-bottom: 1rem;
+}
+
+.nav > a {
+  font-size: .8em;
+  padding-right: 1rem;
+}
+
+@media (min-width: 36rem) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 42rem) {
+
+  .logo {
+    font-size: 3em;
+  }
+
+  .nav > a {
+    font-size: 1em;
+    padding-right: 3rem;
+  }
+}
+
+/* Hero Section Styling */
+
+.hero {
+  /* background: color position/size repeat attachment image origin clip */
+  background: rgba(0,0,0,.3) left/cover no-repeat scroll url('hero.jpg');
+  height: 85vh;
+}
+
+/* Posts Section Styling */
+
+.posts {
+  margin: 3rem 8rem;
+}
+
+.thread {
+  margin: 0 0 1.5rem;
+  /* font-size: .75em; */
+}
+
+.title {
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.content {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.content p {
+  padding: .5rem;
+}
+
+.hideshow {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  figure img {
+    flex: 2 2 50%;
+  }
+
+  .desc {
+    flex: 1 1 25%;
+    padding-left: 2rem;
+  }
+
+  .hideshow {
+    display: block;
+  }
+}
+
+/* Contact Us section Styling */
+
+#contact {
+  padding-bottom: 3rem;
+}
+
+#contact p {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+button, input {
+  border-radius: 1rem;
+  border: 2px solid black;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 5rem;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Footer Styling */
+
+footer {
+  padding: 2rem;
+  text-align: left;
+  background: #cecece;
+}
+
+footer ul {
+  padding: 1rem 0 0;
+  font-weight: 700;
+}
