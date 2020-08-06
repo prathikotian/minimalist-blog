@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
-/* General Styling */
-
+/* General Stlyes */
 * {
   box-sizing: border-box;
   font-family: Karla, sans-serif;
@@ -35,7 +34,7 @@ li {
   list-style: none;
 }
 
-/* Header Styling */
+/* Header Stlyes */
 
 .logo {
   font-size: 2.5em;
@@ -71,23 +70,20 @@ li {
   }
 }
 
-/* Hero Section Styling */
-
+/* Hero Section Stlyes */
 .hero {
-  /* background: color position/size repeat attachment image origin clip */
   background: rgba(0,0,0,.3) left/cover no-repeat scroll url('hero.jpg');
-  height: 85vh;
+  height: 88vh;
+  margin: 0 2rem;
 }
 
-/* Posts Section Styling */
-
+/* Posts Section Stlyes */
 .posts {
   margin: 3rem 8rem;
 }
 
 .thread {
-  margin: 0 0 1.5rem;
-  /* font-size: .75em; */
+  margin-bottom: 4rem;
 }
 
 .title {
@@ -122,7 +118,7 @@ li {
 
   .desc {
     flex: 1 1 25%;
-    padding-left: 2rem;
+    padding: 2rem;
   }
 
   .hideshow {
@@ -130,7 +126,7 @@ li {
   }
 }
 
-/* Contact Us section Styling */
+/* Contact Us section Stlyes */
 
 #contact {
   padding-bottom: 3rem;
@@ -159,7 +155,19 @@ button:hover {
   color: black;
 }
 
-/* Footer Styling */
+/* About Section Styles */
+
+.about {
+  margin: 3rem;
+  height: 100vh;
+}
+
+.about img {
+  width: 80vw;
+  margin-bottom: 3rem;
+}
+
+/* Footer Stlyes */
 
 footer {
   padding: 2rem;

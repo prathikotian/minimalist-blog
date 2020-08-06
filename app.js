@@ -1,6 +1,6 @@
-var express = require('express');
-var app = express();
-var port = 3100;
+const express = require('express'),
+      app = express(),
+      port = process.env.port || 3000;
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/public/img'));
